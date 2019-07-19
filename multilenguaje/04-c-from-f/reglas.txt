@@ -1,0 +1,8 @@
+Para compilar el .o (archivo en lenguaje maquina) en c use:
+gcc -c c-sum.c -o c-sum.o
+
+Para compilar el .o el fortran use:
+gfortran -c f-main.f90 -o f-main.o
+
+Y para linkear use:
+gfortran f-main.o c-sum.o -o sum
